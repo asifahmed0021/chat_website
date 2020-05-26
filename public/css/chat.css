@@ -1,0 +1,250 @@
+@font-face{
+    font-family: lato;
+    src: url('../Lato2OFL/Lato-Regular.ttf');
+}
+
+body{
+    background-color: #F3EBF6;
+    margin:0px 0px 0px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.back{
+
+    position: fixed;
+    height: 100%;
+    width:20%;
+    background-color: #262626;
+    text-align: center;
+    z-index: 0;
+}
+
+.container{
+    position: fixed;
+    width: 25%;
+    left:75%;
+    height: 15%;
+    margin-top: 5%;
+    bottom: 5%;
+   
+}
+
+
+
+.member{
+    margin-top: 10px;
+    width:100%;
+    word-wrap: break-word;
+}
+
+.form{
+    position: absolute;
+    bottom: 0%;
+    z-index: 1000;
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+
+}
+
+.sendbtn:active {
+    background-color: gray;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.sendbtn:focus{
+    background-color: gray;
+}
+
+.msg{
+    height: 4vw;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 2vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 4px;
+    
+
+}
+
+.sendbtn{
+    height:4vw;
+    width: 15%;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;    
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sendbtn:hover{
+    background-color: gray;
+}
+
+.content{
+    position: absolute;
+    background-color: #FFFFFF;
+    width:50%;
+    left:22%;
+    margin-top: 5%;
+    bottom: 5%;
+    height: 90%;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px  #888888;
+    overflow-x: hidden;
+}
+
+.msgdiv{
+    position: relative;
+    height: max-content;
+    width: 100%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 1vw;
+    
+    
+}
+
+.sender{
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width:48%;
+    padding-left: 2%;
+    top:0px;
+    
+}
+
+.time{
+    position: absolute;
+    right: -20%;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 18%;
+    padding-right: 2%;
+    top:0px;
+    transition: transform .4s;
+}
+
+.message{
+    position: relative;
+    width: 78%;
+    font-size: 1.5vw;
+    word-wrap: break-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 16%;
+    top:2vw;
+    text-align: left;
+}
+.message_self{
+    position: relative;
+    width: 78%;
+    align-content: right;
+    font-size: 1.5vw;
+    word-wrap: break-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16%;
+    margin-right: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    top:2vw;
+    text-align: right;
+}
+
+.message,.message_self{
+    background-color: #F3EBF6;
+    border-radius: 10px;
+}
+
+
+
+.message:hover ~ .time {
+     transform: translateX(-100%);     
+}
+
+.message_self:hover ~ .time {
+    transform: translateX(-100%);
+}
+
+
+.head{
+    position: fixed;
+    width:20%;
+    text-align: left;
+    background-color: #464646;
+    color: white;
+    height: 9vw;
+    z-index: 100;
+    
+}
+.a{
+    position: relative;
+    padding-left: 10%;
+    font-size: 3vw;
+    padding-top: 3vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.list{
+    position: relative;
+    z-index: 50;
+    margin-top: 12vw;
+    padding-left: 10%;
+    height: max-content;
+    font-size: 1.5vw;
+
+}
+
+ul{
+    list-style: none;
+    color: white;
+    
+    padding-left: 0px;
+
+}
+
+
+.active{
+
+    position: relative;
+    width:20%;
+    height:100%;
+    float: left;
+    overflow-y: scroll;
+    z-index: 500;
+
+}
+
+
+
+
+.content::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.active::-webkit-scrollbar {
+    display: none;
+  }
+
