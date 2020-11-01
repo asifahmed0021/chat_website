@@ -1,12 +1,9 @@
-@font-face{
-    font-family: lato;
-    src: url('../Lato2OFL/Lato-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
     background-color: #F3EBF6;
     margin:0px 0px 0px 0px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .back{
@@ -62,7 +59,7 @@ body{
     width: 80%;
     border: none;
     outline: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 10px;
