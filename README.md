@@ -3,6 +3,17 @@
 ### This is an implementation of Socket.io using Node.js.<br/> A chat room made by using web sockets.
 In this implementation users can join an existing Chatroom or can create a new one.<br/> Every room is having a Room ID and the chat box keep track of all the users activity like entering or leaving the room.<br/> The active room members are shown on left pane of the page.<br/>
 <br/>
+
+## Run
+Go in the project directory on terminal and run command.
+```
+npm install
+```
+```
+npm run start
+```
+The page will be live on localhost:3000
+
 <p align="center">
   <b> Login Page</b>
 </p>
